@@ -1,0 +1,39 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Keep template examples
+!.env.example
+!backend/.env.example
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Archives
+*.zip
+*.tar.gz
+
+# Model weights (fetched via ./download_models.sh)
+*.onnx
+

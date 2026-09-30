@@ -1,0 +1,26 @@
+{$DOMAIN:localhost} {
+    # Backend API and Health check
+    handle /api/* {
+        reverse_proxy backend:8000
+    }
+    handle /health {
+        reverse_proxy backend:8000
+    }
+    handle /docs* {
+        reverse_proxy backend:8000
+    }
+    handle /openapi.json {
+        reverse_proxy backend:8000
+    }
+
+    # Frontend Next.js app
+    handle /* {
+        reverse_proxy frontend:3000
+    }
+
+    encode gzip zstd
+    log {
+        output stdout
+        format console
+    }
+}
