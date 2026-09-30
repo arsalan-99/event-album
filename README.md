@@ -5,13 +5,13 @@ This is an AI powered visual retrieval platform that eliminates the friction of 
 ## Uploading images
 
 <div align="center">
-  <img src="frontend/Uploading images Preview.png" alt="Web App Preview" width="600">
+  <img src="frontend/Uploading images Preview.png" alt="Web App Preview" width="1000">
 </div>
 
 ## Finding Matches
 
 <div align="center">
-  <img src="frontend/Finding matches Preview.png" alt="Web App Preview" width="600">
+  <img src="frontend/Finding matches Preview.png" alt="Web App Preview" width="1000">
 </div>
 
 ## Tech Stack
