@@ -7,7 +7,6 @@ This is an AI powered visual retrieval platform that eliminates the friction of 
 <div align="center">
   <img src="frontend/Uploading images Preview.png" alt="Web App Preview" width="600">
 </div>
-<div align="center">
 
 ## Finding Matches
 
